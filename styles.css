@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto */
+    margin: 20px; /* Agrega un margen alrededor del contenido */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    color: #333; /* Color de texto */
+}
+
+h1 {
+    color: #4CAF50; /* Color verde para el título */
+    text-align: center; /* Centrar el texto */
+}
+
+p {
+    margin: 10px 0; /* Margen superior e inferior para los párrafos */
+}
+
+#tablita {
+    margin-top: 20px; /* Espacio entre los párrafos y la tabla 3x3 */
+}
+
+#tablaRegistros {
+    margin-top: 20px; /* Espacio entre la sección de tabla de registros y los párrafos */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde alrededor de la tabla de registros */
+    background-color: #fff; /* Color de fondo blanco */
+}
+
+table {
+    width: 100%; /* Hacer que la tabla ocupe todo el ancho */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+th, td {
+    padding: 10px; /* Espacio interno en las celdas */
+    text-align: center; /* Centrar texto en las celdas */
+    border: 1px solid #ddd; /* Borde de las celdas */
+}
+
+th {
+    background-color: #4CAF50; /* Color de fondo para los encabezados */
+    color: white; /* Color de texto para los encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
